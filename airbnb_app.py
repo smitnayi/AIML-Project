@@ -94,6 +94,6 @@ if st.button("Predict Price 🚀"):
     if cleaning_fee: base_price += 30.0
     if cancellation == "strict": base_price -= 10.0
 
-    predicted_exp = float(base_price) * 83.0
-    
-    st.markdown(f"<div class='price-card'><p>Estimated Nightly Price</p><h2>₹{predicted_exp:,.2f}</h2></div>", unsafe_allow_html=True)
+    predicted_exp = float(base_price)
+
+    st.markdown(f"<div class='price-card'><p>Estimated Nightly Price</p><h2>${predicted_exp:.2f}</h2></div>", unsafe_allow_html=True)

@@ -9,9 +9,9 @@ __pycache__/
 *.pyc
 
 # Data & Notebooks (Optional to ignore, but good to keep repo small)
-*.csv
-*.csv.gz
-*.ipynb
+
+.gz
+
 .ipynb_checkpoints/
 
 # Any random scripts

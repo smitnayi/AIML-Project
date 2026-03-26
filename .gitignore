@@ -1,0 +1,22 @@
+# Environments
+venv/
+env/
+.venv/
+.env/
+
+# Python caching
+__pycache__/
+*.pyc
+
+# Data & Notebooks (Optional to ignore, but good to keep repo small)
+*.csv
+*.csv.gz
+*.ipynb
+.ipynb_checkpoints/
+
+# Any random scripts
+patch_inr.py
+add_streamlit.py
+generate_mock_data.py
+fix_notebook_newline.py
+patch_notebook.py
